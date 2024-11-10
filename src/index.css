@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Orbitron:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://media.istockphoto.com/id/1208733643/photo/the-texture-of-the-dark-black-canvas-for-the-background-design-image.jpg?s=612x612&w=0&k=20&c=a8dsXRhmutJe8KZcLjNqKX03_z7QB3cmlprGeF624IU=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: "Orbitron";
+}
+.head{
+    color: whitesmoke;
+}
+.bar{
+    background-color: rgb(186, 177, 177);
+    border-radius: 5px;
+    font-family: "Orbitron";
+}
+.add-button{
+    border-radius: 5px;
+    margin-left: 20px;
+    font-family: "Orbitron";
+}
+ul{
+    margin-left: -40px;
+    list-style: none;
+    font-family: "Orbitron";
+}
+.text{
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+.delete{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Orbitron";
+}
+.up{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Orbitron";
+}
+.down{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Orbitron";
+}
+button{
+    background-color:rgb(186, 177, 177) ;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+button:active{
+    background-color:rgb(233, 219, 219) ;
+    scale: 0.9;
+}
+@media screen and (max-width: 768px) {
+    body{
+        height: 100vh;
+    }
+}
